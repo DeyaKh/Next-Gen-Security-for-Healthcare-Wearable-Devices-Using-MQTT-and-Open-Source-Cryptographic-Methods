@@ -54,9 +54,9 @@ def abnormalError():
 		time.sleep(1)
 
 # Certificate files
-CA_FILE = "/home/deya/Desktop/System/rootCA.pem"          #root CA
-CERT_FILE = "/home/deya/Desktop/System/certificate.pem.crt"      # RPi5 certificate
-PRIVATE_KEY_FILE = "/home/deya/Desktop/System/private.pem.key"  # RPi private key
+CA_FILE = "/Enter the full path to your RootCA/rootCA.pem"          #root CA
+CERT_FILE = "/Enter the full path to your certificate/certificate.pem.crt"      # RPi5 certificate
+PRIVATE_KEY_FILE = "/Enter the full path to your private key/private.pem.key"  # RPi private key
 
 # Define Variables
 HR_TOPIC = "Sensor/readings"
@@ -181,7 +181,7 @@ client.tls_insecure_set(True)
 try:
     # Connect to VerneMQ Broker
 	print("Connecting to the system...")
-	client.connect("172.20.10.11", 8883, 60) 
+	client.connect("BROKER_DOMAIN/IP_ADDRESS", 8883, 60) 
 	client.loop_start()
 	while True:
 		client.on_message = on_message
