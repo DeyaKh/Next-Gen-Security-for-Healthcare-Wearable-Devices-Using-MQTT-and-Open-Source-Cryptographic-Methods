@@ -34,11 +34,12 @@
     v[c] = v[c] + v[d];             \
     v[b] = ROTR32(v[b] ^ v[c], 7); }
 
+// You should enter your SN here (do not change the number of digits!!)
 const unsigned char serialNum[BLOCK_SIZE] = {
-    '9', '4', 'c', 'd', 'b', 'b', 'b', 'b', 
-    '3', 'b', '1', '1', '7', '4', '6', 'c', 
-    'f', '2', '3', '2', 'e', 'c', '6', '1',
-    'c', '6', 'd', 'e', '3', 'b', 'c', '0'
+    'Y', 'o', 'u', 'r', 'S', 'N', 'g', 'o', 
+    'e', 's', 'h', 'e', 'r', 'e', '0', '0', 
+    '0', '0', '0', '0', '0', '0', '0', '0',
+    '0', '0', '0', '0', '0', '0', '0', '0'
 };
 unsigned char iv[BLOCK_SIZE/2] = {
     '1', '2', '3', '4', '5', '6', '7', '8',
