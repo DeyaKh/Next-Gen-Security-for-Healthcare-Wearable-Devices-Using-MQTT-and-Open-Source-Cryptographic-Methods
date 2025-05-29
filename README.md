@@ -151,10 +151,10 @@ python3 HR_System.py
 
 Prepared by students at **Jordan University of Science and Technology (JUST)**:
 
-- Karoleina Nabil Jeries Rezek  
-- Deya Aldeen Ra’ed Rafiq Alkhozaee  
-- Abdulaziz Akram Faisal Tbaishat  
-- Hamza Mohammad Faris Alzoubi  
+- Karoleina Rezek  
+- Deya Aldeen Alkhozaee  
+- Abdulaziz Tbaishat  
+- Hamza Alzoubi  
 
 Supervised by: **Dr. Heba Alawneh**
 
